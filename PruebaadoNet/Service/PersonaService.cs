@@ -31,20 +31,20 @@ namespace PruebaadoNet.Service
                     {
                         var persona = new PersonaDTO
                         {
-                            Nombres = reader["Nombres"]?.ToString(),
-                            Apellidos = reader["Apellidos"]?.ToString(),
-                            Cedula = reader["Cedula"]?.ToString(),
-                            Ciudadania = reader["Ciudadania"]?.ToString(),
-                            FechaNacimiento = reader["FechaNacimiento"] != DBNull.Value
-                                                ? Convert.ToDateTime(reader["FechaNacimiento"])
+                            Nombres = reader["NOMBRES"]?.ToString(),
+                            Apellidos = reader["APELLIDOS"]?.ToString(),
+                            Cedula = reader["CEDULA"]?.ToString(),
+                            Ciudadania = reader["CIUDADANIA"]?.ToString(),
+                            FechaNacimiento = reader["FECHA_NACIMIENTO"] != DBNull.Value
+                                                ? Convert.ToDateTime(reader["FECHA_NACIMIENTO"])
                                                 : (DateTime?)null,
-                            EstadoCivil = reader["EstadoCivil"]?.ToString(),
-                            Profesion = reader["Profesion"]?.ToString(),
-                            NivelEstudios = reader["NivelEstudios"]?.ToString(),
-                            EsCliente = reader["EsCliente"] != DBNull.Value
-                            ? Convert.ToInt32(reader["EsCliente"])
+                            EstadoCivil = reader["ESTADO_CIVIL"]?.ToString(),
+                            Profesion = reader["PROFESION"]?.ToString(),
+                            NivelEstudios = reader["NIVEL_ESTUDIOS"]?.ToString(),
+                            EsCliente = reader["ES_CLIENTE"] != DBNull.Value
+                            ? Convert.ToInt32(reader["ES_CLIENTE"])
                             : 0,
-                            TipoPersona = reader["TipoPersona"]?.ToString(),
+                            TipoPersona = reader["TIPO_PERSONA"]?.ToString(),
                         };
                         listaPersonas.Add(persona);
                     }
