@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PruebaadoNet")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5718d9708789af6c37ad050e74cb19e0ec1649e6")]
 [assembly: System.Reflection.AssemblyProductAttribute("PruebaadoNet")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PruebaadoNet")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

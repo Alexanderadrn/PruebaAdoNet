@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bJrghwQNxZ0oXBHPHLDa3y9jWNlNNPIth3V+Fe03DfebUCISrK2wan9vLJDQkGL6tqat6YnBF/BHFrajFfbE0A==",
+  "dgSpecHash": "LKYi5pZlaPzCgcTvsSttqcHRwAkn/0WDTi242R6dqccioW//440IaMtuQHmXOwi6xykTOXCywPVK4k8MFnF44A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\is-arequelme\\source\\repos\\PruebaadoNet\\PruebaadoNet\\PruebaadoNet.csproj",
+  "projectFilePath": "C:\\Users\\is-arequelme\\source\\repos\\git\\PruebaAdoNet\\PruebaAdoNet\\PruebaadoNet\\PruebaadoNet.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\is-arequelme\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\is-arequelme\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

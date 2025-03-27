@@ -20,8 +20,8 @@ namespace PruebaadoNet.Service
             using (SqlConnection connection = new SqlConnection(_connectionString))
             {
                 await connection.OpenAsync();
-                string query = @"SELECT top 1000 Nombres, Apellidos, Cedula, Ciudadania, FechaNacimiento, 
-                                    EstadoCivil, Profesion, NivelEstudios, EsCliente, TipoPersona 
+                string query = @"SELECT top 1000 NOMBRES, APELLIDOS, CEDULA, CIUDADANIA, FECHA_NACIMIENTO, 
+                                    ESTADO_CIVIL, PROFESION, NivelEsNIVEL_ESTUDIOStudios, ES_CLIENTE, TIPO_PERSONA 
                              FROM HCK_PERSONAS";
 
                 using (SqlCommand command = new SqlCommand(query, connection))
