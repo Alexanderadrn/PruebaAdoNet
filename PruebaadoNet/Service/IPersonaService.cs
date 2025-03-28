@@ -4,6 +4,6 @@ namespace PruebaadoNet.Service
 {
     public interface IPersonaService
     {
-        public Task<List<PersonaDTO>> ObtenerPersona();
+        public Task<List<PersonaDTO>> ObtenerPersona(string cedula);
     }
 }

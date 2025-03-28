@@ -11,10 +11,10 @@ namespace PruebaadoNet.Controllers
         {
             this.persona = _persona;
         }
-        [HttpGet("ObtenerPersonas")]
-        public async Task<IActionResult> ObtenerEstudiantes()
+        [HttpGet("ObtenerPersonasAdo")]
+        public async Task<IActionResult> ObtenerEstudiantes([FromQuery] string cedula)
         {
-            var resultado = await persona.ObtenerPersona();
+            var resultado = await persona.ObtenerPersona(cedula);
             return Ok(resultado);
 
             //return new JsonResult(persona.ObtenerPersona());

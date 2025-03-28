@@ -2090,11 +2090,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\is-arequelme\\source\\repos\\git\\PruebaAdoNet\\PruebaAdoNet\\PruebaadoNet\\PruebaadoNet.csproj",
+      "projectUniqueName": "C:\\Users\\is-arequelme\\source\\repos\\git\\ado\\PruebaAdoNet\\PruebaadoNet\\PruebaadoNet.csproj",
       "projectName": "PruebaadoNet",
-      "projectPath": "C:\\Users\\is-arequelme\\source\\repos\\git\\PruebaAdoNet\\PruebaAdoNet\\PruebaadoNet\\PruebaadoNet.csproj",
+      "projectPath": "C:\\Users\\is-arequelme\\source\\repos\\git\\ado\\PruebaAdoNet\\PruebaadoNet\\PruebaadoNet.csproj",
       "packagesPath": "C:\\Users\\is-arequelme\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\is-arequelme\\source\\repos\\git\\PruebaAdoNet\\PruebaAdoNet\\PruebaadoNet\\obj\\",
+      "outputPath": "C:\\Users\\is-arequelme\\source\\repos\\git\\ado\\PruebaAdoNet\\PruebaadoNet\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
